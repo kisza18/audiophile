@@ -1,11 +1,11 @@
 <template>
-  <div class="home">This is the home page</div>
+  <div class="about">
+    <h1>This is the headphones page</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-  components: {},
   mounted() {
     window.scrollTo(0, 0);
   },

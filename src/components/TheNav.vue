@@ -1,6 +1,8 @@
 <template>
   <nav class="w-screen bg-darkBg text-text">
-    <div class="content flex items-center justify-between py-8 mx-20">
+    <div
+      class="content flex items-center justify-between py-8 mx-auto px-20 max-w-7xl"
+    >
       <div>
         <a href="">
           <img src="../images/shared/desktop/logo.svg" alt="logo" />
@@ -14,17 +16,17 @@
         >
         <router-link
           class="px-4 text-sm font-semibold tracking-widest hover:text-orange"
-          to="/"
+          to="/headphones"
           >HEADPHONES</router-link
         >
         <router-link
           class="px-4 text-sm font-semibold tracking-widest hover:text-orange"
-          to="/"
+          to="/speakers"
           >SPEAKERS</router-link
         >
         <router-link
           class="px-4 text-sm font-semibold tracking-widest hover:text-orange"
-          to="/"
+          to="/earphones"
           >EARPHONES</router-link
         >
       </div>

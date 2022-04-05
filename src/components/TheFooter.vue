@@ -1,6 +1,6 @@
 <template>
   <footer class="w-screen bg-darkBg text-text">
-    <div class="content mx-20">
+    <div class="content mx-auto max-w-7xl px-20">
       <div class="w-24 border-t-4 border-orange"></div>
       <div class="flex justify-between pt-16 pb-8">
         <div>
@@ -20,17 +20,17 @@
           >
           <router-link
             class="pl-10 pr-10 text-sm font-semibold tracking-widest hover:text-orange"
-            to="/"
+            to="/headphones"
             >HEADPHONES</router-link
           >
           <router-link
             class="pl-10 pr-10 text-sm font-semibold tracking-widest hover:text-orange"
-            to="/"
+            to="/speakers"
             >SPEAKERS</router-link
           >
           <router-link
             class="pl-10 text-sm font-semibold tracking-widest hover:text-orange"
-            to="/"
+            to="/earphones"
             >EARPHONES</router-link
           >
         </div>

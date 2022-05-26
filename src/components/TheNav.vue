@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-screen bg-darkBg text-text">
+  <nav class="w-screen fixed bg-darkBg text-text">
     <div
       class="content flex items-center justify-between py-8 mx-auto px-20 max-w-7xl"
     >
@@ -31,16 +31,19 @@
         >
       </div>
       <div>
-        <button>
-          <i class="fal fa-shopping-cart text-xl"></i>
+        <button class="text-text">
+          <img src="../images/cart/icon-cart.svg" alt="" />
         </button>
       </div>
     </div>
+    <div class="line max-w-7xl mx-auto"></div>
   </nav>
 </template>
 
 <style scoped>
-.content {
-  border-bottom: 1px solid rgb(145, 145, 145);
+.line {
+  height: 1px;
+  width: 1120px;
+  background: gray;
 }
 </style>

@@ -1,11 +1,15 @@
 <template>
-  <div class="home">This is the home page</div>
+  <div class="home">
+    <TheHeader />
+  </div>
 </template>
 
 <script>
+import TheHeader from "../components/TheHeader.vue";
+
 export default {
   name: "Home",
-  components: {},
+  components: { TheHeader },
   mounted() {
     window.scrollTo(0, 0);
   },

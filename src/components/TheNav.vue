@@ -1,7 +1,30 @@
 <template>
-  <nav class="w-screen fixed bg-darkBg text-text">
+  <nav class="w-screen bg-darkBg text-text">
     <div
-      class="content flex items-center justify-between py-8 mx-auto px-20 max-w-7xl"
+      class="mobile_nav flex items-center justify-between px-5 py-6 lg:hidden"
+    >
+      <div class="flex items-center">
+        <button class="hamburger_btn pr-5">
+          <img
+            src="../images/shared/tablet/icon-hamburger.svg"
+            alt="hamburger"
+          />
+        </button>
+        <div class="logo">
+          <a href="">
+            <img src="../images/shared/desktop/logo.svg" alt="logo" />
+          </a>
+        </div>
+      </div>
+      <div class="right_side flex items-center">
+        <button class="text-text pr-4">
+          <img src="../images/cart/icon-cart.svg" alt="" />
+        </button>
+        <button>Sign In</button>
+      </div>
+    </div>
+    <div
+      class="desktop_nav hidden lg:flex items-center justify-between py-8 mx-auto px-20 max-w-7xl"
     >
       <div>
         <a href="">
@@ -36,7 +59,7 @@
         </button>
       </div>
     </div>
-    <div class="line max-w-7xl mx-auto"></div>
+    <div class="line flex max-w-7xl mx-auto"></div>
   </nav>
 </template>
 

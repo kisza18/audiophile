@@ -8,7 +8,11 @@ module.exports = {
       orange: "#d87d4a",
       textDark: "#878787",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        heroBg: "url('../images/home/desktop/image-hero.jpg')",
+      },
+    },
   },
   variants: {
     extend: {},

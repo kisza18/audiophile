@@ -1,14 +1,16 @@
 <template>
   <div class="w-full bg-darkBg">
-    <div class="header w-full max-w-7xl mx-auto px-20 py-44">
-      <div class="content">
+    <div
+      class="header w-full max-w-7xl mx-auto lg:px-20 py-44 bg-heroBg bg-center bg-contain bg-no-repeat"
+    >
+      <div class="content w-full h-full text-center lg:text-left">
         <p class="tag uppercase text-sm text-textDark py-4 font-thin">
           New product
         </p>
-        <h1 class="uppercase text-6xl text-text pb-5 font-semibold">
+        <h1 class="uppercase text-4xl lg:text-6xl text-text pb-5 font-semibold">
           XX99 MARK II HEADPHONES
         </h1>
-        <p class="text-base text-textDark pb-10 w-96">
+        <p class="text-base text-textDark pb-10 w-96 px-5 lg:px-0">
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </p>
@@ -23,14 +25,6 @@
 </template>
 
 <style scoped>
-.header {
-  background-image: url("../images/home/desktop/image-hero.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-  max-height: 700px;
-}
 .content {
   width: 400px;
 }

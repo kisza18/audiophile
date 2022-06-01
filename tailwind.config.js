@@ -7,10 +7,16 @@ module.exports = {
       text: "#fafafa",
       orange: "#d87d4a",
       textDark: "#878787",
+      cardBg: "#f1f1f1",
     },
     extend: {
       backgroundImage: {
-        heroBg: "url('../images/home/desktop/image-hero.jpg')",
+        heroDesktop: "url('../images/home/desktop/hero.jpg')",
+        heroTablet: "url('../images/home/tablet/image-hero.jpg')",
+        heroMobile: "url('../images/home/mobile/image-hero.jpg')",
+        circlesBg: "url('../images/home/desktop/pattern-circles.svg')",
+        speakersDesktop: "url('../images/home/desktop/image-speaker-zx9.png')",
+        speakersMobile: "url('../images/home/mobile/image-speaker-zx9.png')",
       },
     },
   },

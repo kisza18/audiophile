@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full text-text absolute top-0 left-0 z-10">
+  <nav class="w-full text-text absolute top-0 left-0 z-30">
     <!-- mobile nav -->
     <div
       class="mobile_nav flex items-center justify-between px-5 py-6 lg:hidden"
@@ -88,7 +88,9 @@
         </button>
       </div>
     </div>
-    <div class="line flex max-w-7xl mx-auto"></div>
+    <div class="max-w-7xl mx-auto px-20">
+      <div class="line hidden lg:flex"></div>
+    </div>
   </nav>
 </template>
 
@@ -101,3 +103,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.line {
+  border-bottom: 1px solid rgb(97, 97, 97);
+}
+</style>

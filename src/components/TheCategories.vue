@@ -1,6 +1,6 @@
 <template>
   <div
-    class="m-4 pt-6 pb-10 lg:pt-24 px-5 md:px-20 rounded-full max-w-7xl mx-auto"
+    class="m-4 pt-6 pb-10 lg:pt-24 px-5 md:px-20 rounded-full max-w-7xl mx-auto md:pt-12 md:pb-20"
   >
     <div class="container md:flex items-center justify-between">
       <div
@@ -11,9 +11,18 @@
           src="../images/category/image-headphones.webp"
           alt=""
         />
-        <div class="content uppercase py-6">
+        <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Headphones</h1>
-          <p class="text-textDark tracking-widest">Shop</p>
+          <button
+            class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
+          >
+            Shop
+            <img
+              class="pl-2"
+              src="../images/shared/desktop/icon-arrow-right.svg"
+              alt=""
+            />
+          </button>
         </div>
       </div>
       <div
@@ -24,9 +33,18 @@
           src="../images/category/image-speakers.webp"
           alt=""
         />
-        <div class="content uppercase py-6">
+        <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Speakers</h1>
-          <p class="text-textDark tracking-widest">Shop</p>
+          <button
+            class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
+          >
+            Shop
+            <img
+              class="pl-2"
+              src="../images/shared/desktop/icon-arrow-right.svg"
+              alt=""
+            />
+          </button>
         </div>
       </div>
       <div
@@ -37,9 +55,18 @@
           src="../images/category/image-earphones.webp"
           alt=""
         />
-        <div class="content uppercase py-6">
+        <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Earphones</h1>
-          <p class="text-textDark tracking-widest">Shop</p>
+          <button
+            class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
+          >
+            Shop
+            <img
+              class="pl-2"
+              src="../images/shared/desktop/icon-arrow-right.svg"
+              alt=""
+            />
+          </button>
         </div>
       </div>
     </div>

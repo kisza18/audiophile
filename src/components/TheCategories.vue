@@ -13,7 +13,8 @@
         />
         <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Headphones</h1>
-          <button
+          <a
+            href="/headphones"
             class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
           >
             Shop
@@ -22,7 +23,7 @@
               src="../images/shared/desktop/icon-arrow-right.svg"
               alt=""
             />
-          </button>
+          </a>
         </div>
       </div>
       <div
@@ -35,7 +36,8 @@
         />
         <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Speakers</h1>
-          <button
+          <a
+            href="/speakers"
             class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
           >
             Shop
@@ -44,7 +46,7 @@
               src="../images/shared/desktop/icon-arrow-right.svg"
               alt=""
             />
-          </button>
+          </a>
         </div>
       </div>
       <div
@@ -57,7 +59,8 @@
         />
         <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Earphones</h1>
-          <button
+          <a
+            href="/earphones"
             class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
           >
             Shop
@@ -66,7 +69,7 @@
               src="../images/shared/desktop/icon-arrow-right.svg"
               alt=""
             />
-          </button>
+          </a>
         </div>
       </div>
     </div>

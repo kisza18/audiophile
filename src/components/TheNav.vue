@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full text-text absolute top-0 left-0 z-30">
+  <nav class="w-full text-text absolute top-0 left-0 z-30 bg-darkBg">
     <!-- mobile nav -->
     <div
       class="mobile_nav flex items-center justify-between px-5 py-6 lg:hidden"

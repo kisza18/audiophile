@@ -22,6 +22,11 @@ const routes = [
     name: "Earphones",
     component: () => import("../views/Earphones.vue"),
   },
+  {
+    path: "/product/:product",
+    name: "Product",
+    component: () => import("../views/Template.vue"),
+  },
 ];
 
 const router = createRouter({

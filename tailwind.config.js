@@ -6,6 +6,7 @@ module.exports = {
       darkBg: "#101010",
       text: "#fafafa",
       orange: "#d87d4a",
+      orangelight: "#eb9f75",
       textDark: "#878787",
       cardBg: "#f1f1f1",
     },

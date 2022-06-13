@@ -15,15 +15,18 @@
           >
             XX99 MARK II HEADPHONES
           </h1>
-          <p class="text-lg text-textDark pb-10 lg:w-96 px-3 md:px-24 lg:px-0">
+          <p
+            class="text-lg text-textDark pb-10 lg:w-96 px-3 md:px-24 lg:px-0 mb-3"
+          >
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <button
-            class="uppercase text-sm bg-orange text-text py-4 px-6 tracking-wider"
+          <a
+            href="/headphones/1"
+            class="uppercase text-sm bg-orange text-text py-4 px-6 tracking-wider hover:bg-orangelight"
           >
             see product
-          </button>
+          </a>
         </div>
       </div>
     </div>

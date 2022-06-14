@@ -22,7 +22,7 @@
             made for the passionate music enthusiast.
           </p>
           <a
-            href="/headphones/1"
+            href=""
             class="uppercase text-sm bg-orange text-text py-4 px-6 tracking-wider hover:bg-orangelight"
           >
             see product

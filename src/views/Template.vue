@@ -1,22 +1,26 @@
 <template>
-  <div
-    class="h-96 w-full flex flex-col items-center justify-center text-center mt-20 px-20"
-  >
-    <h1>page name: {{ productId }}</h1>
-    <h1>name: {{ obj[0].name }}</h1>
-    <h1>content: {{ obj[0].content }}</h1>
-    <h1>price: {{ obj[0].price }}</h1>
-    <h1>features: {{ obj[0].features }}</h1>
-    <h1>featuresSecond: {{ obj[0].featuresSecond }}</h1>
+  <div class="w-full mt-44">
+    <TheProduct
+      title="xx59 headphones"
+      content="Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature."
+      category="category-earphones"
+      filename="image-yx1-earphones.jpg"
+    />
+    <TheCategories />
+    <SectionFour />
   </div>
 </template>
 
 <script>
 import json from "../data.json";
 import { useRoute } from "vue-router";
+import TheProduct from "../components/TheProduct.vue";
+import TheCategories from "../components/TheCategories.vue";
+import SectionFour from "../components/SectionFour.vue";
 
 export default {
   name: "Product",
+  components: { TheProduct, TheCategories, SectionFour },
   data() {
     return {
       json,

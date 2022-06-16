@@ -29,11 +29,12 @@
           Upgrade to premium speakers that are phenomenally built to deliver
           truly remarkable sound
         </p>
-        <button
+        <router-link
+          to="/product/zx9-speaker"
           class="uppercase bg-darkBg text-text text-sm font-bold py-3 px-8"
         >
           see product
-        </button>
+        </router-link>
       </div>
     </div>
   </div>

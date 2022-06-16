@@ -21,7 +21,9 @@
         <button class="text-text pr-4">
           <img src="../images/cart/icon-cart.svg" alt="" />
         </button>
-        <button class="text-sm text-text py-2 md:ml-5">Sign In</button>
+        <router-link to="/signin" class="text-sm text-text py-2 md:ml-5"
+          >Sign In</router-link
+        >
       </div>
     </div>
     <div v-if="toggle" class="dropdown w-full bg-darkBg py-10">
@@ -83,9 +85,12 @@
         <button class="text-text">
           <img src="../images/cart/icon-cart.svg" alt="" />
         </button>
-        <button class="text-sm bg-orange text-text px-4 py-2 ml-5">
+        <router-link
+          to="/signin"
+          class="text-sm bg-orange text-text px-4 py-2 ml-5"
+        >
           Sign In
-        </button>
+        </router-link>
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-20">

@@ -9,18 +9,19 @@
         >
           zx7 speaker
         </h1>
-        <button
-          class="bg-transparent uppercase text-sm font-bold tracking-wider w-40 py-3"
+        <router-link
+          to="/product/zx7-speaker"
+          class="bg-transparent uppercase text-sm font-bold tracking-wider w-40 py-3 px-5"
         >
           see product
-        </button>
+        </router-link>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-button {
+a {
   border: 1px solid black;
 }
 </style>

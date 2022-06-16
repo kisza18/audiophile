@@ -1,5 +1,5 @@
 <template>
-  <div class="section m-5 px-5 md:px-20 max-w-7xl mx-auto">
+  <div class="section m-5 px-5 md:px-10 lg:px-20 max-w-7xl mx-auto">
     <div
       class="flex-col justify-center lg:justify-between lg:flex lg:flex-row-reverse lg:items-center"
     >
@@ -25,18 +25,19 @@
           class="content text-center py-12 mx-5 md:mx-16 md:py-20 lg:text-left lg:mx-0 lg:mr-20"
         >
           <h1
-            class="text-3xl uppercase font-bold tracking-wide pb-7 md:text-4xl lg:text-6xl"
+            class="text-3xl uppercase font-bold tracking-wide pb-7 md:text-5xl lg:text-6xl"
           >
             {{ title }}
           </h1>
-          <p>
+          <p class="mb-10">
             {{ content }}
           </p>
-          <button
+          <router-link
+            :to="url"
             class="uppercase text-sm bg-orange text-text py-4 px-6 tracking-wider mt-8"
           >
             see product
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -45,6 +46,6 @@
 
 <script>
 export default {
-  props: ["title", "content", "filename", "category"],
+  props: ["title", "content", "filename", "category", "url"],
 };
 </script>

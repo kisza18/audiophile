@@ -24,6 +24,7 @@ module.exports = {
         yx1Mobile: "url('../images/home/mobile/image-earphones-yx1.jpg')",
         yx1MTablet: "url('../images/home/tablet/image-earphones-yx1.jpg')",
         yx1Desktop: "url('../images/home/desktop/image-earphones-yx1.jpg')",
+        circle: "url('../images/home/desktop/pattern-circles.svg')",
       },
       height: {
         tall: "450px",

@@ -1,19 +1,13 @@
 <template>
   <div id="nav flex flex-col">
-    <TheNav />
     <router-view />
-    <TheFooter />
   </div>
 </template>
 
 <script>
-import TheNav from "./components/TheNav.vue";
-import TheFooter from "./components/TheFooter.vue";
-
 export default {
-  components: {
-    TheNav,
-    TheFooter,
+  mounted() {
+    window.scrollTo(0, 0);
   },
 };
 </script>

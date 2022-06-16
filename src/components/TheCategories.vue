@@ -13,8 +13,8 @@
         />
         <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Headphones</h1>
-          <a
-            href="/headphones"
+          <router-link
+            to="/headphones"
             class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
           >
             Shop
@@ -23,7 +23,7 @@
               src="../images/shared/desktop/icon-arrow-right.svg"
               alt=""
             />
-          </a>
+          </router-link>
         </div>
       </div>
       <div
@@ -36,8 +36,8 @@
         />
         <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Speakers</h1>
-          <a
-            href="/speakers"
+          <router-link
+            to="/speakers"
             class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
           >
             Shop
@@ -46,7 +46,7 @@
               src="../images/shared/desktop/icon-arrow-right.svg"
               alt=""
             />
-          </a>
+          </router-link>
         </div>
       </div>
       <div
@@ -59,8 +59,8 @@
         />
         <div class="content uppercase py-6 flex flex-col items-center">
           <h1 class="text-darkBg font-bold text-xl pb-3">Earphones</h1>
-          <a
-            href="/earphones"
+          <router-link
+            to="/earphones"
             class="text-textDark text-sm font-bold tracking-wide uppercase flex items-center"
           >
             Shop
@@ -69,7 +69,7 @@
               src="../images/shared/desktop/icon-arrow-right.svg"
               alt=""
             />
-          </a>
+          </router-link>
         </div>
       </div>
     </div>

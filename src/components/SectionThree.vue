@@ -15,11 +15,12 @@
           >
             yx1 earphones
           </h1>
-          <button
-            class="bg-transparent w-40 uppercase text-sm font-bold tracking-wider px-5 py-3"
+          <router-link
+            to="/product/yx1-earphones"
+            class="bg-transparent w-40 text-center uppercase text-sm font-bold tracking-wider px-5 py-3"
           >
             see product
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -27,7 +28,7 @@
 </template>
 
 <style scoped>
-button {
+a {
   border: 1px solid black;
 }
 </style>

@@ -21,12 +21,12 @@
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <a
-            href=""
+          <router-link
+            to="/product/xx99-mark-two-headphones"
             class="uppercase text-sm bg-orange text-text py-4 px-6 tracking-wider hover:bg-orangelight"
           >
             see product
-          </a>
+          </router-link>
         </div>
       </div>
     </div>

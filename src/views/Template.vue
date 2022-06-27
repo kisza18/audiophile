@@ -57,6 +57,7 @@
                   <button class="px-4" @click="quantity++">+</button>
                 </div>
                 <button
+                  @click="addToCart"
                   class="uppercase text-sm bg-orange text-text py-2 font-bold px-6 tracking-wider"
                 >
                   add to cart
@@ -149,7 +150,15 @@ export default {
       json,
       obj: {},
       productId: "",
+      cart: [],
     };
+  },
+  methods: {
+    addToCart() {
+      this.cart.push({ id: this.obj[0].id, quantity: this.quantity });
+      this.quantity = 1;
+      console.log(this.cart);
+    },
   },
   created() {
     const route = useRoute();
